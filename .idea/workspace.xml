@@ -3,7 +3,112 @@
   <component name="ChangeListManager">
     <list default="true" id="4f6bc22d-becb-4408-a1c2-c06ff2f04dc5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-affix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-typeahead.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/phantom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-affix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-phantom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/unit/bootstrap-typeahead.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/vendor/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/vendor/qunit.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tests/vendor/qunit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/accordion.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/alerts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/accordion.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/alerts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/bootplus.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/button-groups.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/buttons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/cards.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/dropdowns.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/forms.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/hero-unit.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/labels-badges.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/media.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/modals.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/navs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/popovers.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/progress-bars.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/responsive-navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/responsive.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/tooltip.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootplus/wells.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/bootstrap.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/breadcrumbs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/button-groups.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/buttons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/carousel.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/close.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/code.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/component-animations.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/dropdowns.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/forms.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/grid.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/hero-unit.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/labels-badges.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/layouts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/media.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/modals.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/navs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/pager.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/pagination.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/popovers.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/progress-bars.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/reset.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/responsive-1200px-min.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/responsive-767px-max.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/responsive-768px-979px.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/responsive-navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/responsive-utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/responsive.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/scaffolding.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/sprites.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/buttons.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/css-tests.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/css-tests.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/forms-responsive.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/forms.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/navbar-fixed-top.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/navbar-static-top.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tests/navbar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/thumbnails.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/tooltip.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/type.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/less/wells.less" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +135,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
+            <state relative-caret-position="871">
               <caret line="201" column="57" lean-forward="false" selection-start-line="201" selection-start-column="57" selection-end-line="201" selection-end-column="57" />
               <folding />
             </state>
@@ -208,11 +313,6 @@
               <item name="eduhub" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduhub" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eduhub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduhub" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,18 +357,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513229061595</updated>
-      <workItem from="1513229063938" duration="4887000" />
+      <workItem from="1513229063938" duration="5063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4887000" />
+    <option name="totallyTimeSpent" value="5063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -324,7 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
+        <state relative-caret-position="871">
           <caret line="201" column="57" lean-forward="false" selection-start-line="201" selection-start-column="57" selection-end-line="201" selection-end-column="57" />
           <folding />
         </state>
