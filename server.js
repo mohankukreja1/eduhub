@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require('path');
+const config=require('./config.js')
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
@@ -53,8 +54,8 @@ app.use(function (req, res, next) {
 });
 app.use('/signup.html', route.signup)
 
-app.set('port', (process.env.PORT || 3000));
 
-app.listen(app.get('port'), function(){
+
+app.listen(config.Port, function(){
     console.log('Server started on port '+app.get('port'));
 });
