@@ -12,6 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mysql2": "^1.5.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "sequelize": "^4.28.1"
   }
 }
