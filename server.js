@@ -13,6 +13,9 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+var route={
+    signup:require('./routes/signup').route
+}
 
 app.use('/' ,express.static(path.join(__dirname,'docs')))
 app.use(session({
@@ -48,7 +51,7 @@ app.use(function (req, res, next) {
     res.locals.user = req.user || null;
     next();
 });
-
+app.use('/signup.html', route.signup)
 
 app.set('port', (process.env.PORT || 3000));
 
