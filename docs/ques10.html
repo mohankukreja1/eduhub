@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques10</title>
+    <link rel="stylesheet" href="../docs/css1/css/bootstrap.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body style="padding: 40px;">
+<center><img src="IQ.jpg" alt="img"> </center>
+<br>
+<br>
+<form id="myForm">
+    <h2>121,144,169,196 ... What's next?</h2>
+    <fieldset>
+        <legend>Question 10</legend>
+        <input type="radio" name="radioName" value="225"/> 225<br/>
+        <input type="radio" name="radioName" value="260" /> 260 <br />
+        <input type="radio" name="radioName" value="298" /> 298 <br />
+        <input type="radio" name="radioName" value="310" /> 310 <br />
+
+
+    </fieldset>
+
+</form>
+<BR>
+<BR>
+<BR>
+<button style="height: 25px;" id="done" class="btn-primary">CHAT WITH EXPERTS</button> &nbsp;&nbsp;<button onclick="location.href='/'" style="height: 25px;" class="btn-primary">NEXT</button>
+<BR>
+<BR>
+<BR>
+<p id="list">
+
+</p>
+
+<script>
+    var answer;
+    $('#myForm input').on('change', function() {
+        answer=$('input[name=radioName]:checked', '#myForm').val();
+    });
+    $('#done').click(function () {
+        var list=$('#list')
+        list.append(`
+         Your Answer : <b>${answer}</b>
+         <br>
+         Correct Answer: <b>225</b>
+         `)
+    })
+
+</script>
+</body>
+</html>

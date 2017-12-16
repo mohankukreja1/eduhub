@@ -20,6 +20,7 @@
     "express-messages": "*",
     "express-session": "*",
     "express-validator": "*",
+    "hbs": "^4.0.1",
     "mysql2": "^1.5.1",
     "passport": "*",
     "passport-http": "*",

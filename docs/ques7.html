@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques7</title>
+    <link rel="stylesheet" href="../docs/css1/css/bootstrap.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body style="padding: 40px;">
+<center><img src="IQ.jpg" alt="img"> </center>
+<br>
+<br>
+<form id="myForm">
+    <h2>2, 4, 8, 16, 32, 64 ... What's next?</h2>
+    <fieldset>
+        <legend>Question 7</legend>
+        <input type="radio" name="radioName" value="90"/> 90<br/>
+        <input type="radio" name="radioName" value="100" /> 100 <br />
+        <input type="radio" name="radioName" value="140" /> 140 <br />
+        <input type="radio" name="radioName" value="128" /> 128 <br />
+
+
+    </fieldset>
+
+</form>
+<BR>
+<BR>
+<BR>
+<button style="height: 25px;" id="done" class="btn-primary">DONE</button> &nbsp;&nbsp;<button onclick="location.href='/ques8.html'" style="height: 25px;" class="btn-primary">NEXT</button>
+<BR>
+<BR>
+<BR>
+<p id="list">
+
+</p>
+
+<script>
+    var answer;
+    $('#myForm input').on('change', function() {
+        answer=$('input[name=radioName]:checked', '#myForm').val();
+    });
+    $('#done').click(function () {
+        var list=$('#list')
+        list.append(`
+         Your Answer : <b>${answer}</b>
+         <br>
+         Correct Answer: <b>128</b>
+         `)
+    })
+
+</script>
+</body>
+</html>

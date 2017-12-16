@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques2</title>
+    <link rel="stylesheet" href="../docs/css1/css/bootstrap.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body style="padding: 40px;">
+<center><img src="IQ.jpg" alt="img"> </center>
+<br>
+<br>
+<form id="myForm">
+    <h2>Which is least like the other four?</h2>
+    <fieldset>
+        <legend>Question 2</legend>
+        <input type="radio" name="radioName" value="Dog"/> Dog <br />
+        <input type="radio" name="radioName" value="Mouse" /> Mouse <br />
+        <input type="radio" name="radioName" value="Lion" /> Lion <br />
+        <input type="radio" name="radioName" value="Snake" /> Snake <br />
+        <input type="radio" name="radioName" value="Elephant" /> Elephant <br />
+        <input type="radio" name="radioName" value="I don't know" /> I don't know <br />
+    </fieldset>
+
+</form>
+<BR>
+<BR>
+<BR>
+<button style="height: 25px;" id="done" class="btn-primary">DONE</button> &nbsp;&nbsp;<button onclick="location.href='/ques3.html'" style="height: 25px;" class="btn-primary">NEXT</button>
+<BR>
+<BR>
+<BR>
+<p id="list">
+
+</p>
+
+<script>
+    var answer;
+    $('#myForm input').on('change', function() {
+        answer=$('input[name=radioName]:checked', '#myForm').val();
+    });
+    $('#done').click(function () {
+        var list=$('#list')
+        list.append(`
+         Your Answer : <b>${answer}</b>
+         <br>
+         Correct Answer: <b>Snake</b>
+         `)
+    })
+
+</script>
+</body>
+</html>

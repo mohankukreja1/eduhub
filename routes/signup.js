@@ -1,14 +1,8 @@
 const route=require('express').Router()
 
+var user=require('../models/db').models.User
 
 
-
-const user=require('../models/db').models.User
-route.get('/hello', (req, res) => {
-    user.findAll({})
-        .then((user) => res.send(user))
-        .catch((err) => console.error(err))
-})
 
 route.post('/',(req,res)=>{
 
@@ -28,11 +22,12 @@ route.post('/',(req,res)=>{
         password:password
     })
         .then((result)=>{
-            res.redirect('/signup.html/hello')
+            res.redirect('/ques1.html')
         })
         .catch(err => console.error(err))
     }
 })
+
 
 exports=module.exports={
     route

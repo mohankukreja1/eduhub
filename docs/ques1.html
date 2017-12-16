@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques1</title>
+    <link rel="stylesheet" href="../docs/css1/css/bootstrap.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body style="padding: 40px;">
+<center><img src="IQ.jpg" alt="img"> </center>
+<br>
+<br>
+<form id="myForm">
+    <h2>1, 3, 5, 7, 8, 9, 11 - Which one doesn't belong in this series?</h2>
+    <fieldset>
+        <legend>Question 1</legend>
+        <input type="radio" name="radioName" value="1" /> 1 <br />
+        <input type="radio" name="radioName" value="2" /> 3 <br />
+        <input type="radio" name="radioName" value="5" /> 5 <br />
+        <input type="radio" name="radioName" value="7" /> 7 <br />
+        <input type="radio" name="radioName" value="8" /> 8 <br />
+        <input type="radio" name="radioName" value="9" /> 9 <br />
+    </fieldset>
+
+</form>
+<BR>
+<BR>
+<BR>
+<button style="height: 25px;" id="done" class="btn-primary">DONE</button> &nbsp;&nbsp;<button onclick="location.href='/ques2.html'" style="height: 25px;" class="btn-primary">NEXT</button>
+<BR>
+<BR>
+<BR>
+<p id="list">
+
+</p>
+
+<script>
+        var answer;
+    $('#myForm input').on('change', function() {
+       answer=$('input[name=radioName]:checked', '#myForm').val();
+    });
+     $('#done').click(function () {
+         var list=$('#list')
+         list.append(`
+         Your Answer : <b>${answer}</b>
+         <br>
+         Correct Answer: <b>8</b>
+         `)
+     })
+    $('#next').click(
+
+    )
+</script>
+</body>
+</html>

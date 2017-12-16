@@ -11,11 +11,16 @@ var LocalStrategy = require('passport-local').Strategy;
 
 
 var app = express();
+app.use(express.static('public'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.set('views',path.join(__dirname,'views'))
+app.set('view engine','hbs')
+
 app.use(cookieParser());
 var route={
-    signup:require('./routes/signup').route
+    signup:require('./routes/signup').route,
+    login:require('./routes/login').route
 }
 
 app.use('/' ,express.static(path.join(__dirname,'docs')))
@@ -44,16 +49,9 @@ app.use(expressValidator({
     }
 }));
 
-app.use(flash());
-app.use(function (req, res, next) {
-    res.locals.success_msg = req.flash('success_msg');
-    res.locals.error_msg = req.flash('error_msg');
-    res.locals.error = req.flash('error');
-    res.locals.user = req.user || null;
-    next();
-});
-app.use('/signup.html', route.signup)
 
+app.use('/signup.html', route.signup)
+app.use('/login.html',route.login)
 
 
 app.listen(config.Port, function(){

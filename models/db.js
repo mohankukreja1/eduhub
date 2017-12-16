@@ -31,6 +31,33 @@ const User = db.define('users', {
 db.sync({force: true})
     .then(() => console.info("Database configured"))
     .catch((err) => console.error(err))
+
+function getUserByUsername(username,cb) {
+
+    User.findOne({where:{name:username}}).then((ans)=>{
+        cb(null,ans)
+    })
+        .catch((err)=>{
+            cb(err)
+        })
+}
+function comparePassword(password1 ,password2 , cb) {
+    if(password1 === password2){
+        cb(null,true)
+    }
+    else{
+        cb(null,false)
+    }
+}
+function getUserById(id,cb) {
+    User.findOne({where:{id:id}}).then((ans)=>{
+        cb(null,ans)
+    })
+        .catch((err)=>{
+            cb(err)
+        })
+}
+
 exports.models = {
-     User
+     User ,getUserByUsername,comparePassword,getUserById
 }

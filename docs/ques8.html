@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques8</title>
+    <link rel="stylesheet" href="../docs/css1/css/bootstrap.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body style="padding: 40px;">
+<center><img src="IQ.jpg" alt="img"> </center>
+<br>
+<br>
+<form id="myForm">
+    <h2>Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?</h2>
+    <fieldset>
+        <legend>Question 8</legend>
+        <input type="radio" name="radioName" value="20"/> 20<br/>
+        <input type="radio" name="radioName" value="24" /> 24 <br />
+        <input type="radio" name="radioName" value="25" /> 25 <br />
+        <input type="radio" name="radioName" value="26" /> 26 <br />
+
+
+    </fieldset>
+
+</form>
+<BR>
+<BR>
+<BR>
+<button style="height: 25px;" id="done" class="btn-primary">DONE</button> &nbsp;&nbsp;<button onclick="location.href='/ques9.html'" style="height: 25px;" class="btn-primary">NEXT</button>
+<BR>
+<BR>
+<BR>
+<p id="list">
+
+</p>
+
+<script>
+    var answer;
+    $('#myForm input').on('change', function() {
+        answer=$('input[name=radioName]:checked', '#myForm').val();
+    });
+    $('#done').click(function () {
+        var list=$('#list')
+        list.append(`
+         Your Answer : <b>${answer}</b>
+         <br>
+         Correct Answer: <b>24</b>
+         `)
+    })
+
+</script>
+</body>
+</html>
