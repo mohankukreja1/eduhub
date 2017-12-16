@@ -2,7 +2,7 @@ const route=require('express').Router()
 
 var user=require('../models/db').models.User
 
-
+var x;
 
 route.post('/',(req,res)=>{
 
@@ -11,7 +11,8 @@ route.post('/',(req,res)=>{
     var password = req.body.password;
     var password2 = req.body.passwordRepeat;
     var temp='password not matching'
-
+    console.log(username)
+    x=username;
     if(password!=password2){
     res.redirect('/signup.html')
     }
@@ -28,7 +29,10 @@ route.post('/',(req,res)=>{
     }
 })
 
+route.get('/hello',(req,res)=>{
+    res.send(x)
+})
 
 exports=module.exports={
-    route
+route
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <script src="socket.js"></script>
+</head>
+<body>
+<h4>Type here</h4>
+<input type="text" id="msg" name="text">
+<br>
+<br>
+<button id="send">SEND</button>
+<br>
+<br>
+<ul id="list">
+
+</ul>
+
+<script>
+    var socket=io()
+    var x;
+    $(function () {
+        $.get('/signup.html/hello',(data)=>{
+            x=data;
+        })
+
+
+    var list=$('#list')
+        $('#send').click(function () {
+            socket.emit('msg',{
+                message:$('#msg').val()
+            })
+
+        })
+        socket.on('msg',function (data) {
+            //var user=data.username
+            var tmp=data.message
+            //console.log(user)
+            list.append(`
+                <li>
+                ${x} : ${tmp}
+</li>
+                `)
+        })
+    })
+    
+</script>
+</body>
+</html>
